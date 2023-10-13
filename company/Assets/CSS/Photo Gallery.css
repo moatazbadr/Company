@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+body{
+    background-color: rgb(56, 56, 56);
+}
+button{
+    background-image: linear-gradient(to right, #00c6fb, #0a56d1); 
+border: none;
+width: 350px;
+height: 50px;
+font-size: xx-large;
+color: white;
+margin-left: 550px;
+margin-top: 30px;
+display: block;
+}
+.links{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+
+}
+.link{
+padding: 10px;
+color: white;
+text-decoration: none;
+transition: all 500ms;
+}
+.search{
+    width: 70px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.search >i{
+    font-size: 17px;
+    color: #777;
+  position: absolute;
+}
+.search >input{
+    flex: 1;
+    height: 35px;
+width: 20px;
+border: none;
+outline: none;
+    font-size: 17px;
+    transition: all 1000ms;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+input:hover {
+    width: 400px;
+}
+.card{
+    height: 250px;
+    margin: 20px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+img{
+    height: 250px;
+    width: 300px;
+    border-radius: 3px;
+}
+.container{
+    display: flex;
+    margin-left: 70px;
+}
+.desc{
+    height: 45px;
+    width: 300px;
+    padding: 4px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+color: white;
+bottom: 227px;
+transition: all 500ms;
+}
+h1{
+    margin: 6px;
+    font-size: 22px;
+}
+p{
+    font-size: 12px;
+    margin: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 500ms;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .desc2 {
+height: 130px;
+}
+.card:hover .desc {
+height: 130px;
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+a:hover{
+    color: #0a56d1;
+}
+.desc2{
+    height: 45px;
+    width: 300px;
+    padding: 4px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+color: white;
+bottom: -65px;
+transition: all 500ms;
+}
+h1{
+    margin: 6px;
+    font-size: 22px;
+}
+p{
+    font-size: 12px;
+    margin: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 500ms;
+}
